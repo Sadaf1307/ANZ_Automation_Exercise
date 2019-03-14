@@ -1,0 +1,172 @@
+{
+  "uid" : "6d32c56bf9f308c4",
+  "name" : "I set \"0\" to the inputfield \"[aria-describedby='q3q4i1 q3q4i2']\"",
+  "fullName" : "Test the ANZ App I should be able to get home loan estimate based on provided filters.I set \"0\" to the inputfield \"[aria-describedby='q3q4i1 q3q4i2']\"",
+  "historyId" : "c0093dfc94de739db80450b24b97602a",
+  "time" : {
+    "start" : 1552545888188,
+    "stop" : 1552545888342,
+    "duration" : 154
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545888190,
+        "stop" : 1552545888210,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9cc960894c2b282b",
+        "name" : "Request",
+        "source" : "9cc960894c2b282b.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "50a1b5eabd60a320",
+        "name" : "Response",
+        "source" : "50a1b5eabd60a320.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545888214,
+        "stop" : 1552545888228,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10553f2b2c55b289",
+        "name" : "Request",
+        "source" : "10553f2b2c55b289.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "e6d8515e0a0f8843",
+        "name" : "Response",
+        "source" : "e6d8515e0a0f8843.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-16/clear",
+      "time" : {
+        "start" : 1552545888229,
+        "stop" : 1552545888272,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca54555b7d232139",
+        "name" : "Response",
+        "source" : "ca54555b7d232139.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-16/value",
+      "time" : {
+        "start" : 1552545888273,
+        "stop" : 1552545888337,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4dfec371948e7595",
+        "name" : "Request",
+        "source" : "4dfec371948e7595.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "6da4312adbb0cdde",
+        "name" : "Response",
+        "source" : "6da4312adbb0cdde.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "testMethod",
+    "value" : "I set \"0\" to the inputfield \"[aria-describedby='q3q4i1 q3q4i2']\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d32c56bf9f308c4.json",
+  "parameterValues" : [ "chrome" ]
+}

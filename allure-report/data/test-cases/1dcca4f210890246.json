@@ -1,0 +1,97 @@
+{
+  "uid" : "1dcca4f210890246",
+  "name" : "I open the site \"/\"",
+  "fullName" : "Test the ANZ App I should be able to reset the fields after I get the estimation results.I open the site \"/\"",
+  "historyId" : "47513a7795c38ae3d5259eeb4b19c0d2",
+  "time" : {
+    "start" : 1552545893990,
+    "stop" : 1552545898116,
+    "duration" : 4126
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/url",
+      "time" : {
+        "start" : 1552545893991,
+        "stop" : 1552545898114,
+        "duration" : 4123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbc0ea2fd2a3bf39",
+        "name" : "Request",
+        "source" : "cbc0ea2fd2a3bf39.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "169d725bf638f006",
+        "name" : "Response",
+        "source" : "169d725bf638f006.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the site \"/\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1dcca4f210890246.json",
+  "parameterValues" : [ "chrome" ]
+}

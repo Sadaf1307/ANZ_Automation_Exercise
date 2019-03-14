@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":1,\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"F:\\\\Sadaf\\\\ANZ_Automation_Exercise\\\\src\\\\features\\\\ANZ.feature\"]" ],
+  "name" : "spec files"
+} ]

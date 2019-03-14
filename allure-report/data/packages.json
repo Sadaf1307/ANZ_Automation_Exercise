@@ -1,0 +1,413 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Test the ANZ App I should be able to get home loan estimate based on provided filters",
+    "children" : [ {
+      "name" : "I open the site \"/\"",
+      "uid" : "960dfdf5dcb1c3f5",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545882096,
+        "stop" : 1552545886507,
+        "duration" : 4411
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"#q2heading\" matches the text \"Your earnings\"",
+      "uid" : "e9596ac3ce9fc87e",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545886508,
+        "stop" : 1552545886617,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click on the element \"#application_type_single\"",
+      "uid" : "47901442025e30e9",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545886617,
+        "stop" : 1552545886764,
+        "duration" : 147
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I select the 0th option for element \"[class='borrow__question__answer borrow__question__answer--select']\"",
+      "uid" : "f95aa85a6da58bed",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545886764,
+        "stop" : 1552545886884,
+        "duration" : 120
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click on the button \"[for='borrow_type_home']\"",
+      "uid" : "482ee63e0363831f",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545886884,
+        "stop" : 1552545887040,
+        "duration" : 156
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"80000\" to the inputfield \"[aria-describedby='q2q1i1 q2q1i2']\"",
+      "uid" : "1c4857ca7ba0dd6f",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545887040,
+        "stop" : 1552545887316,
+        "duration" : 276
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"10000\" to the inputfield \"[aria-describedby='q2q2i1 q2q2i2']\"",
+      "uid" : "c0e407529ecc6fd5",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545887317,
+        "stop" : 1552545887604,
+        "duration" : 287
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"500\" to the inputfield \"#expenses\"",
+      "uid" : "818ee4a5c7da0c7e",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545887604,
+        "stop" : 1552545887823,
+        "duration" : 219
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"0\" to the inputfield \"#homeloans\"",
+      "uid" : "92652617dda940a2",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545887824,
+        "stop" : 1552545887979,
+        "duration" : 155
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"100\" to the inputfield \"#otherloans\"",
+      "uid" : "f79a53267389d218",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545887979,
+        "stop" : 1552545888187,
+        "duration" : 208
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"0\" to the inputfield \"[aria-describedby='q3q4i1 q3q4i2']\"",
+      "uid" : "6d32c56bf9f308c4",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545888188,
+        "stop" : 1552545888342,
+        "duration" : 154
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"10000\" to the inputfield \"#credit\"",
+      "uid" : "b4258f3dd9dbe41e",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545888342,
+        "stop" : 1552545888615,
+        "duration" : 273
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+      "uid" : "d54ec64b4aa860fd",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545888615,
+        "stop" : 1552545888741,
+        "duration" : 126
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I pause for 5000ms",
+      "uid" : "94e7df7b2870cfd3",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545888741,
+        "stop" : 1552545893750,
+        "duration" : 5009
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"[class='borrow__result__text__amount']\" matches the text \"$479,000\"",
+      "uid" : "f3142747c0221220",
+      "parentUid" : "68ac05f27c8f02b5c22099f7a02bc44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545893753,
+        "stop" : 1552545893868,
+        "duration" : 115
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "68ac05f27c8f02b5c22099f7a02bc44e"
+  }, {
+    "name" : "Test the ANZ App I should be able to reset the fields after I get the estimation results",
+    "children" : [ {
+      "name" : "I open the site \"/\"",
+      "uid" : "1dcca4f210890246",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545893990,
+        "stop" : 1552545898116,
+        "duration" : 4126
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"80000\" to the inputfield \"[aria-describedby='q2q1i1 q2q1i2']\"",
+      "uid" : "f5b9f836fe602948",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545898116,
+        "stop" : 1552545898391,
+        "duration" : 275
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"10000\" to the inputfield \"[aria-describedby='q2q2i1 q2q2i2']\"",
+      "uid" : "86564b881b1f79a5",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545898391,
+        "stop" : 1552545898662,
+        "duration" : 271
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"500\" to the inputfield \"#expenses\"",
+      "uid" : "42a52ee74dba8c8f",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545898662,
+        "stop" : 1552545898896,
+        "duration" : 234
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"10000\" to the inputfield \"#credit\"",
+      "uid" : "dcdd954b134bb5ad",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545898896,
+        "stop" : 1552545899185,
+        "duration" : 289
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+      "uid" : "ab58e7f5de99c724",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899186,
+        "stop" : 1552545899305,
+        "duration" : 119
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"[class='icon icon_restart']\" becomes visible",
+      "uid" : "b9ae0b97fe57680c",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899305,
+        "stop" : 1552545899389,
+        "duration" : 84
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click on the element \"[class='icon icon_restart']\"",
+      "uid" : "54b000b0ddfe3127",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899390,
+        "stop" : 1552545899553,
+        "duration" : 163
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"#application_type_single\" matches the text \"S\"",
+      "uid" : "9ad99c50d5296aa2",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899554,
+        "stop" : 1552545899629,
+        "duration" : 75
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"[for='borrow_type_home']\" matches the text \"Home to live in\"",
+      "uid" : "f1f580adb8c081e3",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899629,
+        "stop" : 1552545899736,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"[aria-describedby='q2q1i1 q2q1i2']\" matches the text \"0\"",
+      "uid" : "c95c3f8aef8597f7",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899736,
+        "stop" : 1552545899804,
+        "duration" : 68
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"[aria-describedby='q2q2i1 q2q2i2']\" matches the text \"0\"",
+      "uid" : "9e284fb12fce5ead",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899804,
+        "stop" : 1552545899878,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"#expenses\" matches the text \"0\"",
+      "uid" : "3410147ba6e1bec0",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899879,
+        "stop" : 1552545899955,
+        "duration" : 76
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"#credit\" matches the text \"0\"",
+      "uid" : "c7a23ab99d2fa9a8",
+      "parentUid" : "3e0fcb5ba9a67757a4fab40476584694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545899955,
+        "stop" : 1552545900020,
+        "duration" : 65
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "3e0fcb5ba9a67757a4fab40476584694"
+  }, {
+    "name" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0",
+    "children" : [ {
+      "name" : "I open the site \"/\"",
+      "uid" : "3c3dce9b1ec842",
+      "parentUid" : "0d112b17d0efb57c9f3dcbbc3094dd22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545900110,
+        "stop" : 1552545902661,
+        "duration" : 2551
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I set \"1\" to the inputfield \"#expenses\"",
+      "uid" : "c5b3f72d093a9027",
+      "parentUid" : "0d112b17d0efb57c9f3dcbbc3094dd22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545902661,
+        "stop" : 1552545902823,
+        "duration" : 162
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+      "uid" : "92439affc0562dde",
+      "parentUid" : "0d112b17d0efb57c9f3dcbbc3094dd22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545902823,
+        "stop" : 1552545902955,
+        "duration" : 132
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "I expect that element \"[class='borrow__error__text']\" matches the text \"Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.\"",
+      "uid" : "e9e2c90bac61fa55",
+      "parentUid" : "0d112b17d0efb57c9f3dcbbc3094dd22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1552545902956,
+        "stop" : 1552545903041,
+        "duration" : 85
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "0d112b17d0efb57c9f3dcbbc3094dd22"
+  } ]
+}

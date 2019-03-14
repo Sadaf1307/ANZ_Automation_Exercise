@@ -1,0 +1,331 @@
+[ {
+  "uid" : "f3142747c0221220",
+  "name" : "I expect that element \"[class='borrow__result__text__amount']\" matches the text \"$479,000\"",
+  "time" : {
+    "start" : 1552545893753,
+    "stop" : 1552545893868,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7a23ab99d2fa9a8",
+  "name" : "I expect that element \"#credit\" matches the text \"0\"",
+  "time" : {
+    "start" : 1552545899955,
+    "stop" : 1552545900020,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c4857ca7ba0dd6f",
+  "name" : "I set \"80000\" to the inputfield \"[aria-describedby='q2q1i1 q2q1i2']\"",
+  "time" : {
+    "start" : 1552545887040,
+    "stop" : 1552545887316,
+    "duration" : 276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92439affc0562dde",
+  "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "time" : {
+    "start" : 1552545902823,
+    "stop" : 1552545902955,
+    "duration" : 132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9596ac3ce9fc87e",
+  "name" : "I expect that element \"#q2heading\" matches the text \"Your earnings\"",
+  "time" : {
+    "start" : 1552545886508,
+    "stop" : 1552545886617,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4258f3dd9dbe41e",
+  "name" : "I set \"10000\" to the inputfield \"#credit\"",
+  "time" : {
+    "start" : 1552545888342,
+    "stop" : 1552545888615,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "482ee63e0363831f",
+  "name" : "I click on the button \"[for='borrow_type_home']\"",
+  "time" : {
+    "start" : 1552545886884,
+    "stop" : 1552545887040,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5b9f836fe602948",
+  "name" : "I set \"80000\" to the inputfield \"[aria-describedby='q2q1i1 q2q1i2']\"",
+  "time" : {
+    "start" : 1552545898116,
+    "stop" : 1552545898391,
+    "duration" : 275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92652617dda940a2",
+  "name" : "I set \"0\" to the inputfield \"#homeloans\"",
+  "time" : {
+    "start" : 1552545887824,
+    "stop" : 1552545887979,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94e7df7b2870cfd3",
+  "name" : "I pause for 5000ms",
+  "time" : {
+    "start" : 1552545888741,
+    "stop" : 1552545893750,
+    "duration" : 5009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "960dfdf5dcb1c3f5",
+  "name" : "I open the site \"/\"",
+  "time" : {
+    "start" : 1552545882096,
+    "stop" : 1552545886507,
+    "duration" : 4411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54b000b0ddfe3127",
+  "name" : "I click on the element \"[class='icon icon_restart']\"",
+  "time" : {
+    "start" : 1552545899390,
+    "stop" : 1552545899553,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f79a53267389d218",
+  "name" : "I set \"100\" to the inputfield \"#otherloans\"",
+  "time" : {
+    "start" : 1552545887979,
+    "stop" : 1552545888187,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcdd954b134bb5ad",
+  "name" : "I set \"10000\" to the inputfield \"#credit\"",
+  "time" : {
+    "start" : 1552545898896,
+    "stop" : 1552545899185,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5b3f72d093a9027",
+  "name" : "I set \"1\" to the inputfield \"#expenses\"",
+  "time" : {
+    "start" : 1552545902661,
+    "stop" : 1552545902823,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e284fb12fce5ead",
+  "name" : "I expect that element \"[aria-describedby='q2q2i1 q2q2i2']\" matches the text \"0\"",
+  "time" : {
+    "start" : 1552545899804,
+    "stop" : 1552545899878,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47901442025e30e9",
+  "name" : "I click on the element \"#application_type_single\"",
+  "time" : {
+    "start" : 1552545886617,
+    "stop" : 1552545886764,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86564b881b1f79a5",
+  "name" : "I set \"10000\" to the inputfield \"[aria-describedby='q2q2i1 q2q2i2']\"",
+  "time" : {
+    "start" : 1552545898391,
+    "stop" : 1552545898662,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d54ec64b4aa860fd",
+  "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "time" : {
+    "start" : 1552545888615,
+    "stop" : 1552545888741,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9ae0b97fe57680c",
+  "name" : "I expect that element \"[class='icon icon_restart']\" becomes visible",
+  "time" : {
+    "start" : 1552545899305,
+    "stop" : 1552545899389,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1f580adb8c081e3",
+  "name" : "I expect that element \"[for='borrow_type_home']\" matches the text \"Home to live in\"",
+  "time" : {
+    "start" : 1552545899629,
+    "stop" : 1552545899736,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3410147ba6e1bec0",
+  "name" : "I expect that element \"#expenses\" matches the text \"0\"",
+  "time" : {
+    "start" : 1552545899879,
+    "stop" : 1552545899955,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "818ee4a5c7da0c7e",
+  "name" : "I set \"500\" to the inputfield \"#expenses\"",
+  "time" : {
+    "start" : 1552545887604,
+    "stop" : 1552545887823,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ad99c50d5296aa2",
+  "name" : "I expect that element \"#application_type_single\" matches the text \"S\"",
+  "time" : {
+    "start" : 1552545899554,
+    "stop" : 1552545899629,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c95c3f8aef8597f7",
+  "name" : "I expect that element \"[aria-describedby='q2q1i1 q2q1i2']\" matches the text \"0\"",
+  "time" : {
+    "start" : 1552545899736,
+    "stop" : 1552545899804,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f95aa85a6da58bed",
+  "name" : "I select the 0th option for element \"[class='borrow__question__answer borrow__question__answer--select']\"",
+  "time" : {
+    "start" : 1552545886764,
+    "stop" : 1552545886884,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0e407529ecc6fd5",
+  "name" : "I set \"10000\" to the inputfield \"[aria-describedby='q2q2i1 q2q2i2']\"",
+  "time" : {
+    "start" : 1552545887317,
+    "stop" : 1552545887604,
+    "duration" : 287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dcca4f210890246",
+  "name" : "I open the site \"/\"",
+  "time" : {
+    "start" : 1552545893990,
+    "stop" : 1552545898116,
+    "duration" : 4126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab58e7f5de99c724",
+  "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "time" : {
+    "start" : 1552545899186,
+    "stop" : 1552545899305,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d32c56bf9f308c4",
+  "name" : "I set \"0\" to the inputfield \"[aria-describedby='q3q4i1 q3q4i2']\"",
+  "time" : {
+    "start" : 1552545888188,
+    "stop" : 1552545888342,
+    "duration" : 154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42a52ee74dba8c8f",
+  "name" : "I set \"500\" to the inputfield \"#expenses\"",
+  "time" : {
+    "start" : 1552545898662,
+    "stop" : 1552545898896,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c3dce9b1ec842",
+  "name" : "I open the site \"/\"",
+  "time" : {
+    "start" : 1552545900110,
+    "stop" : 1552545902661,
+    "duration" : 2551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9e2c90bac61fa55",
+  "name" : "I expect that element \"[class='borrow__error__text']\" matches the text \"Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.\"",
+  "time" : {
+    "start" : 1552545902956,
+    "stop" : 1552545903041,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

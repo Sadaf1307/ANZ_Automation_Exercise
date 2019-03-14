@@ -1,0 +1,702 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552545882076' stop='1552545893870'>
+    <name>Test the ANZ App I should be able to get home loan estimate based on provided filters</name>
+    <title>Test the ANZ App I should be able to get home loan estimate based on provided filters</title>
+    <test-cases>
+        <test-case start='1552545882096' status='passed' stop='1552545886507'>
+            <name>I open the site "/"</name>
+            <title>I open the site "/"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545882106' status='passed' stop='1552545886495'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/url</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/url</title>
+                    <attachments>
+                        <attachment title='Request' source='74e64456-5871-4e08-9218-b7236337ba6b-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='765f793a-ad8f-4d4c-8599-d8e4454d24fd-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545886508' status='passed' stop='1552545886617'>
+            <name>I expect that element "#q2heading" matches the text "Your earnings"</name>
+            <title>I expect that element "#q2heading" matches the text "Your earnings"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545886521' status='passed' stop='1552545886548'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='00b16e33-7232-40f1-bdf5-49e6ea939288-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='5687c2f3-161a-4b00-a397-d533506eb4ac-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886548' status='passed' stop='1552545886560'>
+                    <name>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-1/attribute/value</name>
+                    <title>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-1/attribute/value</title>
+                    <attachments>
+                        <attachment title='Response' source='fe5bbab8-5981-4cc9-a0db-adc3c708db62-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886564' status='passed' stop='1552545886580'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='56678c35-72a6-42d8-830e-4e42d554b51a-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='e209f82a-3c36-43a2-b5fa-4bbfdb6204de-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886581' status='passed' stop='1552545886613'>
+                    <name>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-1/text</name>
+                    <title>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='535accf2-72ef-4cb3-a8fa-91747a4c92f4-attachment.json' type='application/json' size='102'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545886617' status='passed' stop='1552545886764'>
+            <name>I click on the element "#application_type_single"</name>
+            <title>I click on the element "#application_type_single"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545886619' status='passed' stop='1552545886644'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b30cadbe-7818-4a16-9451-4ec0e62a8e9a-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='2b215c29-57c0-4a92-ad54-11742a31f2fa-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886650' status='passed' stop='1552545886673'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='49536e17-25f1-4eb4-a0bb-767f0cd76538-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='10b719a1-3994-4eac-b45c-f088891c4037-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886674' status='passed' stop='1552545886762'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-2/click</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='feb8b56a-deca-4150-8401-affb00d53f79-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545886764' status='passed' stop='1552545886884'>
+            <name>I select the 0th option for element "[class='borrow__question__answer borrow__question__answer--select']"</name>
+            <title>I select the 0th option for element "[class='borrow__question__answer borrow__question__answer--select']"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545886768' status='passed' stop='1552545886798'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ba8d0c28-1c7a-49f3-bf55-682396460063-attachment.json' type='application/json' size='115'/>
+                        <attachment title='Response' source='550ec7e2-6260-4b58-945e-2f5b88b9700f-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886798' status='passed' stop='1552545886821'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='31f7d731-29f1-4d26-8f60-e465ee186025-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='6ed9166b-5464-4a97-8cc5-11e7cc771477-attachment.json' type='application/json' size='495'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886822' status='passed' stop='1552545886881'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-4/click</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='5459aaa0-c585-4f0e-a449-190155a70f7c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545886884' status='passed' stop='1552545887040'>
+            <name>I click on the button "[for='borrow_type_home']"</name>
+            <title>I click on the button "[for='borrow_type_home']"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545886886' status='passed' stop='1552545886917'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='5d8d54ec-3439-433f-a60e-69bdc11a8aa3-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='3bd3a0f3-0683-4e17-bc5f-373a6ef7a0ae-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886920' status='passed' stop='1552545886944'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8de08231-4a08-4338-9bdc-20e41b9ba3e8-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='c7d358b3-12f5-47c7-bddc-7b9f012afec3-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545886944' status='passed' stop='1552545887038'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-10/click</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-10/click</title>
+                    <attachments>
+                        <attachment title='Response' source='a32b21ab-029c-4391-b329-9eee1b8acf1e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545887040' status='passed' stop='1552545887316'>
+            <name>I set "80000" to the inputfield "[aria-describedby='q2q1i1 q2q1i2']"</name>
+            <title>I set "80000" to the inputfield "[aria-describedby='q2q1i1 q2q1i2']"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545887041' status='passed' stop='1552545887063'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d55f453a-2040-4d8f-a717-72d789bf4043-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='2a56b77a-1c7b-49a4-824a-b3459ac1e8ac-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887069' status='passed' stop='1552545887082'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='69f69d3f-a870-4155-993e-0a1abb49f3ed-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='b9228c76-c170-4b93-afb5-2bd2efa60830-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887083' status='passed' stop='1552545887132'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-11/clear</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-11/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='f4836d37-978c-45a1-962c-3a6be39d8ebc-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887133' status='passed' stop='1552545887313'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-11/value</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-11/value</title>
+                    <attachments>
+                        <attachment title='Request' source='51028ebb-af93-4045-aa75-2bd652248042-attachment.json' type='application/json' size='109'/>
+                        <attachment title='Response' source='73776878-be3b-4962-81e1-dae16abde3f3-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545887317' status='passed' stop='1552545887604'>
+            <name>I set "10000" to the inputfield "[aria-describedby='q2q2i1 q2q2i2']"</name>
+            <title>I set "10000" to the inputfield "[aria-describedby='q2q2i1 q2q2i2']"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545887318' status='passed' stop='1552545887342'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='378c89d9-bcbe-487f-9d3a-27391d53f2c1-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='e2af175b-6d64-4f83-9913-d5af63dcd2a8-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887345' status='passed' stop='1552545887365'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='59923fe1-11a3-441e-bbaf-35c50ad00845-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='0b7e8884-f3c1-4cad-a8bf-ca6c9d7fc106-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887366' status='passed' stop='1552545887417'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-12/clear</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-12/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='84af97f6-32a5-440e-aa5b-7a4ef31a4a4e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887418' status='passed' stop='1552545887601'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-12/value</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-12/value</title>
+                    <attachments>
+                        <attachment title='Request' source='888faef1-f8a8-4c2f-841d-97046a6e035c-attachment.json' type='application/json' size='109'/>
+                        <attachment title='Response' source='14908538-7c18-49d5-a42d-6df72a62cc7a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545887604' status='passed' stop='1552545887823'>
+            <name>I set "500" to the inputfield "#expenses"</name>
+            <title>I set "500" to the inputfield "#expenses"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545887606' status='passed' stop='1552545887629'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='40e0f6cd-a0e8-4c32-b31c-73cca547f487-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='affec18f-fb75-4a9e-9d8f-c7722f35024f-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887633' status='passed' stop='1552545887647'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='311f094c-821f-4e77-863f-d282a532a352-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='4f1db01f-aec7-4ed6-b56d-a699ee7a3714-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887652' status='passed' stop='1552545887704'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-13/clear</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-13/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='3ce61a8f-f754-4b0d-97db-70105d8b5728-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887704' status='passed' stop='1552545887822'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-13/value</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-13/value</title>
+                    <attachments>
+                        <attachment title='Request' source='d5f1bb57-f13f-4e5d-ba0b-6cead7964bc4-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='30c881ef-7753-4397-91f0-2c55142ffc6f-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545887824' status='passed' stop='1552545887979'>
+            <name>I set "0" to the inputfield "#homeloans"</name>
+            <title>I set "0" to the inputfield "#homeloans"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545887825' status='passed' stop='1552545887848'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='72e24c85-224c-4242-ab51-3e9696313f6d-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='012427e4-2a4f-47e1-9a2b-f88eb1260d24-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887849' status='passed' stop='1552545887864'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ef7b1731-dbb1-4656-bf06-c24677f4da0c-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='7e0a5984-76d8-4a7b-8542-696058b1319f-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887868' status='passed' stop='1552545887914'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-14/clear</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-14/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='6c836f87-f3ea-4b3c-bb15-8f949274d98c-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545887915' status='passed' stop='1552545887977'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-14/value</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-14/value</title>
+                    <attachments>
+                        <attachment title='Request' source='1e5774ef-eba3-419a-b4e8-91ec6d917fdf-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='fb000e07-fc76-4193-9919-3f3981c6de46-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545887979' status='passed' stop='1552545888187'>
+            <name>I set "100" to the inputfield "#otherloans"</name>
+            <title>I set "100" to the inputfield "#otherloans"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545887980' status='passed' stop='1552545888002'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ebb47893-a458-4877-b61c-f61f621e5660-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='8fded55a-b7cf-42b3-93ae-6163012d41c6-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888008' status='passed' stop='1552545888026'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ce00ef01-0d11-4c9b-8293-44cc443ac487-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='114a8477-0b3e-4525-879e-69ec4795d547-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888026' status='passed' stop='1552545888071'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-15/clear</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-15/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='dbfb19a7-b29b-4e01-b7ec-e2b56cc4cfc9-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888071' status='passed' stop='1552545888186'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-15/value</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-15/value</title>
+                    <attachments>
+                        <attachment title='Request' source='5208a622-3745-4fca-83dc-2bd304005889-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='7c383f31-b630-4c4c-98a2-fcab2b26667a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545888188' status='passed' stop='1552545888342'>
+            <name>I set "0" to the inputfield "[aria-describedby='q3q4i1 q3q4i2']"</name>
+            <title>I set "0" to the inputfield "[aria-describedby='q3q4i1 q3q4i2']"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545888190' status='passed' stop='1552545888210'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8bde7932-c337-437a-ad6e-0a87133f0a07-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='559d06e0-0658-404c-8bd5-43939fb40808-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888214' status='passed' stop='1552545888228'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='4dee7f51-2c2b-45d2-ad73-5af29461c361-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='2007644c-5200-4b43-84c5-b297b3fde020-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888229' status='passed' stop='1552545888272'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-16/clear</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-16/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='796ba6cd-f162-4a1a-b115-2d1290a61a07-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888273' status='passed' stop='1552545888337'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-16/value</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-16/value</title>
+                    <attachments>
+                        <attachment title='Request' source='efdd8001-c54d-4139-9018-93eb7807ee6b-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='ef11be05-2be6-47da-b0a5-5092ad047cac-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545888342' status='passed' stop='1552545888615'>
+            <name>I set "10000" to the inputfield "#credit"</name>
+            <title>I set "10000" to the inputfield "#credit"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545888344' status='passed' stop='1552545888371'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d4324938-d269-45eb-b9cc-122e67ddb107-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='befb17c8-02e1-4767-9bea-6e12bc396f56-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888373' status='passed' stop='1552545888388'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ab5e0390-4ded-4d75-8905-e0ff5b3b95a1-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='9f5e4a4a-9b8a-4687-90de-7310796a160c-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888389' status='passed' stop='1552545888433'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-17/clear</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-17/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='fa7f1882-07d8-4dcb-8d8b-e5d8602e84b7-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888434' status='passed' stop='1552545888614'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-17/value</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-17/value</title>
+                    <attachments>
+                        <attachment title='Request' source='250bd809-4478-4df6-a1d1-1049f57ce734-attachment.json' type='application/json' size='109'/>
+                        <attachment title='Response' source='767d6f91-8295-4aa3-9005-3059c7af96e0-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545888615' status='passed' stop='1552545888741'>
+            <name>I click on the button "[class='btn btn--action btn--borrow__calculate']"</name>
+            <title>I click on the button "[class='btn btn--action btn--borrow__calculate']"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545888616' status='passed' stop='1552545888637'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='94170269-c0ca-4db1-ade7-531e6b6af8ec-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='709246cb-ab22-421d-8d0b-569f58b2921d-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888640' status='passed' stop='1552545888660'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1ca8988c-6178-44ad-8df0-177d0f5b6bca-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='57ba7001-4066-440a-90be-3029ec8a19de-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545888661' status='passed' stop='1552545888740'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-18/click</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-18/click</title>
+                    <attachments>
+                        <attachment title='Response' source='64869380-3096-4109-ac55-b95faf42e9d2-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545888741' status='passed' stop='1552545893750'>
+            <name>I pause for 5000ms</name>
+            <title>I pause for 5000ms</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545893753' status='passed' stop='1552545893868'>
+            <name>I expect that element "[class='borrow__result__text__amount']" matches the text "$479,000"</name>
+            <title>I expect that element "[class='borrow__result__text__amount']" matches the text "$479,000"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='I should be able to get home loan estimate based on provided filters'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545893762' status='passed' stop='1552545893814'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d7b1bdf0-1b21-4c98-baea-32dd2871f368-attachment.json' type='application/json' size='86'/>
+                        <attachment title='Response' source='0e541e2d-cea2-4a24-941f-03627175b11b-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545893814' status='passed' stop='1552545893828'>
+                    <name>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-19/attribute/value</name>
+                    <title>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-19/attribute/value</title>
+                    <attachments>
+                        <attachment title='Response' source='53e32203-e766-4405-8b17-e287efb07065-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545893829' status='passed' stop='1552545893842'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3438aa6e-ce58-4569-a34b-823c7ed027f0-attachment.json' type='application/json' size='86'/>
+                        <attachment title='Response' source='0fde9ae3-d018-43b4-8501-de01ebf4e211-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545893843' status='passed' stop='1552545893867'>
+                    <name>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-19/text</name>
+                    <title>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-19/text</title>
+                    <attachments>
+                        <attachment title='Response' source='8b16ef87-7f72-4205-bf86-75ea64fd7a25-attachment.json' type='application/json' size='97'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

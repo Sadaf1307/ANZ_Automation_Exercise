@@ -1,0 +1,145 @@
+{
+  "uid" : "54b000b0ddfe3127",
+  "name" : "I click on the element \"[class='icon icon_restart']\"",
+  "fullName" : "Test the ANZ App I should be able to reset the fields after I get the estimation results.I click on the element \"[class='icon icon_restart']\"",
+  "historyId" : "a48e4cce08b4e76071006d9f301ff1e8",
+  "time" : {
+    "start" : 1552545899390,
+    "stop" : 1552545899553,
+    "duration" : 163
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545899390,
+        "stop" : 1552545899411,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "626072f57d3c19ff",
+        "name" : "Request",
+        "source" : "626072f57d3c19ff.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "939b3296fafafab5",
+        "name" : "Response",
+        "source" : "939b3296fafafab5.json",
+        "type" : "application/json",
+        "size" : 227
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element",
+      "time" : {
+        "start" : 1552545899414,
+        "stop" : 1552545899438,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47412fea83994c8a",
+        "name" : "Request",
+        "source" : "47412fea83994c8a.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "528dd5c645bd2a80",
+        "name" : "Response",
+        "source" : "528dd5c645bd2a80.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.8266442974205603-6/click",
+      "time" : {
+        "start" : 1552545899438,
+        "stop" : 1552545899552,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3a76321361ab9f",
+        "name" : "Response",
+        "source" : "a3a76321361ab9f.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the element \"[class='icon icon_restart']\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54b000b0ddfe3127.json",
+  "parameterValues" : [ "chrome" ]
+}

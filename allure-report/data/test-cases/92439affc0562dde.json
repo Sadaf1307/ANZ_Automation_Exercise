@@ -1,0 +1,145 @@
+{
+  "uid" : "92439affc0562dde",
+  "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "fullName" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0.I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "historyId" : "b7c0c684a7116162d3f7622a65367ed8",
+  "time" : {
+    "start" : 1552545902823,
+    "stop" : 1552545902955,
+    "duration" : 132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545902825,
+        "stop" : 1552545902841,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2594cf3991850375",
+        "name" : "Request",
+        "source" : "2594cf3991850375.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "ed7c4a3b7a43e309",
+        "name" : "Response",
+        "source" : "ed7c4a3b7a43e309.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element",
+      "time" : {
+        "start" : 1552545902844,
+        "stop" : 1552545902858,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84a675654dadaeed",
+        "name" : "Request",
+        "source" : "84a675654dadaeed.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "16dfd4d8a1b25a2f",
+        "name" : "Response",
+        "source" : "16dfd4d8a1b25a2f.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-2/click",
+      "time" : {
+        "start" : 1552545902858,
+        "stop" : 1552545902954,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c40c94596a830da6",
+        "name" : "Response",
+        "source" : "c40c94596a830da6.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92439affc0562dde.json",
+  "parameterValues" : [ "chrome" ]
+}

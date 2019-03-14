@@ -1,0 +1,166 @@
+{
+  "uid" : "f1f580adb8c081e3",
+  "name" : "I expect that element \"[for='borrow_type_home']\" matches the text \"Home to live in\"",
+  "fullName" : "Test the ANZ App I should be able to reset the fields after I get the estimation results.I expect that element \"[for='borrow_type_home']\" matches the text \"Home to live in\"",
+  "historyId" : "2d62b473f5da963b8cc269b41ff3e3f1",
+  "time" : {
+    "start" : 1552545899629,
+    "stop" : 1552545899736,
+    "duration" : 107
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545899631,
+        "stop" : 1552545899652,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dcdbf604e982f40c",
+        "name" : "Request",
+        "source" : "dcdbf604e982f40c.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "e6ef94388669ee4f",
+        "name" : "Response",
+        "source" : "e6ef94388669ee4f.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.8266442974205603-9/attribute/value",
+      "time" : {
+        "start" : 1552545899652,
+        "stop" : 1552545899670,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9742df859838fe5",
+        "name" : "Response",
+        "source" : "f9742df859838fe5.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545899672,
+        "stop" : 1552545899700,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c94695c124a88234",
+        "name" : "Request",
+        "source" : "c94695c124a88234.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "31aa024155841e87",
+        "name" : "Response",
+        "source" : "31aa024155841e87.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.8266442974205603-9/text",
+      "time" : {
+        "start" : 1552545899700,
+        "stop" : 1552545899734,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d53aadad07022f13",
+        "name" : "Response",
+        "source" : "d53aadad07022f13.json",
+        "type" : "application/json",
+        "size" : 104
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testMethod",
+    "value" : "I expect that element \"[for='borrow_type_home']\" matches the text \"Home to live in\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1f580adb8c081e3.json",
+  "parameterValues" : [ "chrome" ]
+}

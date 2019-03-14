@@ -1,0 +1,166 @@
+{
+  "uid" : "f3142747c0221220",
+  "name" : "I expect that element \"[class='borrow__result__text__amount']\" matches the text \"$479,000\"",
+  "fullName" : "Test the ANZ App I should be able to get home loan estimate based on provided filters.I expect that element \"[class='borrow__result__text__amount']\" matches the text \"$479,000\"",
+  "historyId" : "83ed4dfdc75364bb5b90f6687f21ee8d",
+  "time" : {
+    "start" : 1552545893753,
+    "stop" : 1552545893868,
+    "duration" : 115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545893762,
+        "stop" : 1552545893814,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f51719fa7462c42",
+        "name" : "Request",
+        "source" : "f51719fa7462c42.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "4b3b2009668fccbf",
+        "name" : "Response",
+        "source" : "4b3b2009668fccbf.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-19/attribute/value",
+      "time" : {
+        "start" : 1552545893814,
+        "stop" : 1552545893828,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3239e7d793658301",
+        "name" : "Response",
+        "source" : "3239e7d793658301.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545893829,
+        "stop" : 1552545893842,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c70d243adf62a463",
+        "name" : "Request",
+        "source" : "c70d243adf62a463.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "d5bfcd425fe0e2fc",
+        "name" : "Response",
+        "source" : "d5bfcd425fe0e2fc.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-19/text",
+      "time" : {
+        "start" : 1552545893843,
+        "stop" : 1552545893867,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6deef91d872d842f",
+        "name" : "Response",
+        "source" : "6deef91d872d842f.json",
+        "type" : "application/json",
+        "size" : 97
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "testMethod",
+    "value" : "I expect that element \"[class='borrow__result__text__amount']\" matches the text \"$479,000\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3142747c0221220.json",
+  "parameterValues" : [ "chrome" ]
+}

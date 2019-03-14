@@ -1,0 +1,166 @@
+{
+  "uid" : "e9e2c90bac61fa55",
+  "name" : "I expect that element \"[class='borrow__error__text']\" matches the text \"Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.\"",
+  "fullName" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0.I expect that element \"[class='borrow__error__text']\" matches the text \"Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.\"",
+  "historyId" : "f38a241f453d8ac108d773e9b2a51657",
+  "time" : {
+    "start" : 1552545902956,
+    "stop" : 1552545903041,
+    "duration" : 85
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545902958,
+        "stop" : 1552545902982,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c77f54ed6ca648c",
+        "name" : "Request",
+        "source" : "1c77f54ed6ca648c.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "1ccdb9a2d2e17bfa",
+        "name" : "Response",
+        "source" : "1ccdb9a2d2e17bfa.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-3/attribute/value",
+      "time" : {
+        "start" : 1552545902982,
+        "stop" : 1552545902992,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41ec2b635616a6aa",
+        "name" : "Response",
+        "source" : "41ec2b635616a6aa.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545902994,
+        "stop" : 1552545903009,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "461c6d67efc5ff0e",
+        "name" : "Request",
+        "source" : "461c6d67efc5ff0e.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "45e29dadd5eb65e6",
+        "name" : "Response",
+        "source" : "45e29dadd5eb65e6.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-3/text",
+      "time" : {
+        "start" : 1552545903012,
+        "stop" : 1552545903040,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ea9292528a5b2bc",
+        "name" : "Response",
+        "source" : "9ea9292528a5b2bc.json",
+        "type" : "application/json",
+        "size" : 248
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "I expect that element \"[class='borrow__error__text']\" matches the text \"Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641.\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9e2c90bac61fa55.json",
+  "parameterValues" : [ "chrome" ]
+}

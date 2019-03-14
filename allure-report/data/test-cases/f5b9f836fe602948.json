@@ -1,0 +1,172 @@
+{
+  "uid" : "f5b9f836fe602948",
+  "name" : "I set \"80000\" to the inputfield \"[aria-describedby='q2q1i1 q2q1i2']\"",
+  "fullName" : "Test the ANZ App I should be able to reset the fields after I get the estimation results.I set \"80000\" to the inputfield \"[aria-describedby='q2q1i1 q2q1i2']\"",
+  "historyId" : "ba69ef193f1f87e4eb3e587e60ee18b1",
+  "time" : {
+    "start" : 1552545898116,
+    "stop" : 1552545898391,
+    "duration" : 275
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545898118,
+        "stop" : 1552545898133,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7c1e6563ac916a1",
+        "name" : "Request",
+        "source" : "a7c1e6563ac916a1.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "6b34b9209882f0b",
+        "name" : "Response",
+        "source" : "6b34b9209882f0b.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545898138,
+        "stop" : 1552545898153,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fb52b5a1c1a07376",
+        "name" : "Request",
+        "source" : "fb52b5a1c1a07376.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "b068f0e871f19470",
+        "name" : "Response",
+        "source" : "b068f0e871f19470.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.8266442974205603-1/clear",
+      "time" : {
+        "start" : 1552545898154,
+        "stop" : 1552545898202,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d587ea361eb9ba5",
+        "name" : "Response",
+        "source" : "2d587ea361eb9ba5.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.8266442974205603-1/value",
+      "time" : {
+        "start" : 1552545898202,
+        "stop" : 1552545898387,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87c6272ecaf5bb25",
+        "name" : "Request",
+        "source" : "87c6272ecaf5bb25.json",
+        "type" : "application/json",
+        "size" : 109
+      }, {
+        "uid" : "e48ce87f3d2aa476",
+        "name" : "Response",
+        "source" : "e48ce87f3d2aa476.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testMethod",
+    "value" : "I set \"80000\" to the inputfield \"[aria-describedby='q2q1i1 q2q1i2']\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5b9f836fe602948.json",
+  "parameterValues" : [ "chrome" ]
+}

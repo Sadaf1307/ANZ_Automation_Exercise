@@ -1,0 +1,172 @@
+{
+  "uid" : "c5b3f72d093a9027",
+  "name" : "I set \"1\" to the inputfield \"#expenses\"",
+  "fullName" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0.I set \"1\" to the inputfield \"#expenses\"",
+  "historyId" : "d8117fddb61453ecd872c69cc87f7b13",
+  "time" : {
+    "start" : 1552545902661,
+    "stop" : 1552545902823,
+    "duration" : 162
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545902663,
+        "stop" : 1552545902684,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e557ca6bd9bf60c7",
+        "name" : "Request",
+        "source" : "e557ca6bd9bf60c7.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "7819ba4a2ec8c7bb",
+        "name" : "Response",
+        "source" : "7819ba4a2ec8c7bb.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545902688,
+        "stop" : 1552545902703,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93cce75ae9146281",
+        "name" : "Request",
+        "source" : "93cce75ae9146281.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "b8cd906c97f1092",
+        "name" : "Response",
+        "source" : "b8cd906c97f1092.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-1/clear",
+      "time" : {
+        "start" : 1552545902703,
+        "stop" : 1552545902750,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8bb8b0dfe925d647",
+        "name" : "Response",
+        "source" : "8bb8b0dfe925d647.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-1/value",
+      "time" : {
+        "start" : 1552545902751,
+        "stop" : 1552545902822,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bcf6a3940112f1dd",
+        "name" : "Request",
+        "source" : "bcf6a3940112f1dd.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "835ecdc2f6543e2c",
+        "name" : "Response",
+        "source" : "835ecdc2f6543e2c.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "I set \"1\" to the inputfield \"#expenses\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5b3f72d093a9027.json",
+  "parameterValues" : [ "chrome" ]
+}

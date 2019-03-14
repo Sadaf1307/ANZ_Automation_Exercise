@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "f142ec80aba1052b8a9b34f098dd0127",
+    "name" : "Test the ANZ App I should be able to get home loan estimate based on provided filters",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    }
+  }, {
+    "uid" : "40befb8e7db487302cb480a7e4e6ce4e",
+    "name" : "Test the ANZ App I should be able to reset the fields after I get the estimation results",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "e39be1a9c105ced970ff9251bb2c4dd7",
+    "name" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

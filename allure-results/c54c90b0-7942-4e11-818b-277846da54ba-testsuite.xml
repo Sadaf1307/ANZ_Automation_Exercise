@@ -1,0 +1,183 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552545900110' stop='1552545903041'>
+    <name>Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0</name>
+    <title>Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0</title>
+    <test-cases>
+        <test-case start='1552545900110' status='passed' stop='1552545902661'>
+            <name>I open the site "/"</name>
+            <title>I open the site "/"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='Get the correct estimate/message when entering $1 living expense leaving other fields as 0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545900110' status='passed' stop='1552545902659'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/url</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8b6b0ed3-e8ce-4875-af98-4db162614c01-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='e8e9c143-f8b2-4e69-8546-7ffdc91c2c1a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545902661' status='passed' stop='1552545902823'>
+            <name>I set "1" to the inputfield "#expenses"</name>
+            <title>I set "1" to the inputfield "#expenses"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='Get the correct estimate/message when entering $1 living expense leaving other fields as 0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545902663' status='passed' stop='1552545902684'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='36e86591-e117-46d2-8b2d-17369d0d30e2-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='2a8bed19-405c-4671-b3dc-d4e7930e39b5-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545902688' status='passed' stop='1552545902703'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='fde9faac-2234-4da9-83e6-6b3730f2540c-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='348c2451-1baa-4c96-8cfd-10e02685f6d9-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545902703' status='passed' stop='1552545902750'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-1/clear</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='4ca533d8-25ef-4e46-ba38-bc5b367eecc4-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545902751' status='passed' stop='1552545902822'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-1/value</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3c2f3847-34e7-4565-910a-0f79ad59da82-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='94201dc5-475f-4fd5-96c4-41f82f277d27-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545902823' status='passed' stop='1552545902955'>
+            <name>I click on the button "[class='btn btn--action btn--borrow__calculate']"</name>
+            <title>I click on the button "[class='btn btn--action btn--borrow__calculate']"</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='Get the correct estimate/message when entering $1 living expense leaving other fields as 0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545902825' status='passed' stop='1552545902841'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='d33f8322-eabf-4ea6-a210-9a3adb30fb92-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='af082fbc-e372-449e-9399-28c0e81cb1d0-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545902844' status='passed' stop='1552545902858'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3dc5947c-1a0c-4120-a549-82754880f06f-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='ac75a11f-d797-4fcd-be8a-ddf6fadfdb27-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545902858' status='passed' stop='1552545902954'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-2/click</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='d7905b4e-096e-4d63-937c-0d41cd72f975-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552545902956' status='passed' stop='1552545903041'>
+            <name>I expect that element "[class='borrow__error__text']" matches the text "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641."</name>
+            <title>I expect that element "[class='borrow__error__text']" matches the text "Based on the details you've entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641."</title>
+            <labels>
+                <label name='feature' value='Test the ANZ App'/>
+                <label name='story' value='Get the correct estimate/message when entering $1 living expense leaving other fields as 0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["F:\\Sadaf\\ANZ_Automation_Exercise\\src\\features\\ANZ.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1552545902958' status='passed' stop='1552545902982'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a26c1b64-ac2a-4738-b828-c66a2ee6dec9-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='9029215e-b77c-4952-9dcd-12d67cd6f591-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545902982' status='passed' stop='1552545902992'>
+                    <name>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-3/attribute/value</name>
+                    <title>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-3/attribute/value</title>
+                    <attachments>
+                        <attachment title='Response' source='82e342a1-5a52-42d9-b9f9-40f4c2cdc377-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545902994' status='passed' stop='1552545903009'>
+                    <name>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</name>
+                    <title>POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='45b2d18a-acdb-48d7-910d-bbed7f269717-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='5d271a6a-b282-4771-808f-0cf9fa36e18f-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1552545903012' status='passed' stop='1552545903040'>
+                    <name>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-3/text</name>
+                    <title>GET /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.19684261149255766-3/text</title>
+                    <attachments>
+                        <attachment title='Response' source='481a49b2-7e05-4052-a39f-7e6384521e15-attachment.json' type='application/json' size='248'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,145 @@
+{
+  "uid" : "d54ec64b4aa860fd",
+  "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "fullName" : "Test the ANZ App I should be able to get home loan estimate based on provided filters.I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "historyId" : "bbd635dbe3599a71a1f5a3a2a561c4e5",
+  "time" : {
+    "start" : 1552545888615,
+    "stop" : 1552545888741,
+    "duration" : 126
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545888616,
+        "stop" : 1552545888637,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a2fda0284af5c3e",
+        "name" : "Request",
+        "source" : "8a2fda0284af5c3e.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "24e7ec965022f4c6",
+        "name" : "Response",
+        "source" : "24e7ec965022f4c6.json",
+        "type" : "application/json",
+        "size" : 161
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element",
+      "time" : {
+        "start" : 1552545888640,
+        "stop" : 1552545888660,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "feb9a781776ebbc7",
+        "name" : "Request",
+        "source" : "feb9a781776ebbc7.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "1d4278f3da424f97",
+        "name" : "Response",
+        "source" : "1d4278f3da424f97.json",
+        "type" : "application/json",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.6395457264993578-18/click",
+      "time" : {
+        "start" : 1552545888661,
+        "stop" : 1552545888740,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8cf638f0f898514",
+        "name" : "Response",
+        "source" : "8cf638f0f898514.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d54ec64b4aa860fd.json",
+  "parameterValues" : [ "chrome" ]
+}

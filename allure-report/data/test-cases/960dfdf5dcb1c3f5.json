@@ -1,0 +1,97 @@
+{
+  "uid" : "960dfdf5dcb1c3f5",
+  "name" : "I open the site \"/\"",
+  "fullName" : "Test the ANZ App I should be able to get home loan estimate based on provided filters.I open the site \"/\"",
+  "historyId" : "8274934701da8da0215b638d5d3f8dcf",
+  "time" : {
+    "start" : 1552545882096,
+    "stop" : 1552545886507,
+    "duration" : 4411
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/url",
+      "time" : {
+        "start" : 1552545882106,
+        "stop" : 1552545886495,
+        "duration" : 4389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ea712ed1487751e",
+        "name" : "Request",
+        "source" : "6ea712ed1487751e.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "10987ca6e9d730e8",
+        "name" : "Response",
+        "source" : "10987ca6e9d730e8.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the site \"/\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to get home loan estimate based on provided filters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "960dfdf5dcb1c3f5.json",
+  "parameterValues" : [ "chrome" ]
+}

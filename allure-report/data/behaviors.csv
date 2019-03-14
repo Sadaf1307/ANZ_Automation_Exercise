@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Test the ANZ App","I should be able to get home loan estimate based on provided filters","0","0","15","0","0"
+"","Test the ANZ App","I should be able to reset the fields after I get the estimation results","0","0","14","0","0"
+"","Test the ANZ App","Get the correct estimate/message when entering $1 living expense leaving other fields as 0","0","0","4","0","0"

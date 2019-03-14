@@ -1,0 +1,97 @@
+{
+  "uid" : "3c3dce9b1ec842",
+  "name" : "I open the site \"/\"",
+  "fullName" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0.I open the site \"/\"",
+  "historyId" : "48d1f61ccfbac28931096e133ea0c27",
+  "time" : {
+    "start" : 1552545900110,
+    "stop" : 1552545902661,
+    "duration" : 2551
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/url",
+      "time" : {
+        "start" : 1552545900110,
+        "stop" : 1552545902659,
+        "duration" : 2549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ad8e46e39470f34",
+        "name" : "Request",
+        "source" : "5ad8e46e39470f34.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "8c652e010da31045",
+        "name" : "Response",
+        "source" : "8c652e010da31045.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "testMethod",
+    "value" : "I open the site \"/\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App Get the correct estimate/message when entering $1 living expense leaving other fields as 0"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c3dce9b1ec842.json",
+  "parameterValues" : [ "chrome" ]
+}

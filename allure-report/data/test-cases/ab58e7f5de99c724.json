@@ -1,0 +1,145 @@
+{
+  "uid" : "ab58e7f5de99c724",
+  "name" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "fullName" : "Test the ANZ App I should be able to reset the fields after I get the estimation results.I click on the button \"[class='btn btn--action btn--borrow__calculate']\"",
+  "historyId" : "69741cffd919245f8a14d8d09296efd5",
+  "time" : {
+    "start" : 1552545899186,
+    "stop" : 1552545899305,
+    "duration" : 119
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/elements",
+      "time" : {
+        "start" : 1552545899186,
+        "stop" : 1552545899203,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ea7e1ae02e7ff7f",
+        "name" : "Request",
+        "source" : "7ea7e1ae02e7ff7f.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "845f3581d6a036ae",
+        "name" : "Response",
+        "source" : "845f3581d6a036ae.json",
+        "type" : "application/json",
+        "size" : 160
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element",
+      "time" : {
+        "start" : 1552545899205,
+        "stop" : 1552545899219,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "438714c0a90bef2a",
+        "name" : "Request",
+        "source" : "438714c0a90bef2a.json",
+        "type" : "application/json",
+        "size" : 96
+      }, {
+        "uid" : "188562e55f3cf963",
+        "name" : "Response",
+        "source" : "188562e55f3cf963.json",
+        "type" : "application/json",
+        "size" : 136
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /wd/hub/session/87d14fa4da2cfa84cb87b9da39aa5fb3/element/0.8266442974205603-5/click",
+      "time" : {
+        "start" : 1552545899219,
+        "stop" : 1552545899303,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27939ad4c9c169a6",
+        "name" : "Response",
+        "source" : "27939ad4c9c169a6.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test the ANZ App"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "suite",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on the button \"[class='btn btn--action btn--borrow__calculate']\""
+  }, {
+    "name" : "package",
+    "value" : "Test the ANZ App I should be able to reset the fields after I get the estimation results"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab58e7f5de99c724.json",
+  "parameterValues" : [ "chrome" ]
+}
